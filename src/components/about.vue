@@ -18,6 +18,10 @@
         </p>
       </div>
     <!-- End about-->
+    <div class="btn-group btn-group-md mt-4" role="group" aria-label="Callout buttons">
+      <a type="button" class="btn btn-primary" href="tel:2538334688">Call Now</a>
+      <a type="button" class="btn btn-light" href="mailto:arron.webbuild@gmail.com?Subject=Vetrans%20Logistics">Send Email</a>
+    </div>
   </div>
 </template>
 
@@ -26,7 +30,7 @@ export default {
   name: 'aboutPage',
   data () {
     return {
-      msg: 'About Page'
+      msg: 'About VETRANS'
     }
   }
 }
@@ -36,10 +40,48 @@ export default {
 <style scoped>
 
 .aboutPage{
-  background-color: #e6f3ff91;
+    font-size: 21px;
+    text-align: center;
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 h1, h2 {
   font-weight: normal;
+  font-size: 50px;
 }
 ul {
   list-style-type: none;
@@ -49,7 +91,7 @@ li {
   display: inline-block;
   margin: 0 10px;
 }
-a {
-  color: #42b983;
+img{
+  padding-bottom: 15px;
 }
 </style>
