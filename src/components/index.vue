@@ -1,7 +1,7 @@
 <template>
   <div class="indexPage">
     <h1>{{ msg }}</h1>
-    <img class="img rounded" src="../assets/mission.png" alt="mission flag">
+    <img class="img-fluid mx-auto d-block" src="../assets/mission.png" alt="mission flag">
     <h2>We Support Our Troops</h2>
     <h4>Blessed are the peacemakers, for they will be called sons of God. (Matthew 5:9)</h4>
 
@@ -27,6 +27,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1, h2 {
+  margin: 1.5em 0em;
   font-weight: normal;
 }
 ul {
@@ -36,6 +37,11 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+
+img{
+  margin: 2em 5em;
+  border-radius: 5px;
 }
 
 </style>

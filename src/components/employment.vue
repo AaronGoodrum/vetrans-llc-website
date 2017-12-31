@@ -16,8 +16,9 @@
     <p class="mb-4"><span class="red">VET</span><span class="blue">RANS</span> Logistics Services, Inc is a flatbed trucking company operating in the Western US since 2011. We have semi and maxi equipment. Our drivers are honorably-discharged veterans.
     </p>
     </div>
-<p class="container"><span class="red">VET</span><span class="blue">RANS</span>  guarantees all drivers a weekly minimum gross pay amount based upon these responsibilities as follows:</p>
-  <div class="row">
+  <div class="container col-md-8 col-lg-8">
+    <p class="container"><span class="red">VET</span><span class="blue">RANS</span>  guarantees all drivers a weekly minimum gross pay amount based upon these responsibilities as follows:</p>
+    <div class="row">
 <!--local services -->
       <div class="col-md-6 col-lg-6">
         <div class="card mb-4">
@@ -64,6 +65,7 @@
         </div>
       </div>
 <!-- END Maxi services -->
+  </div>
 <!-- Employment Request -->
   <div class="mt-4 form-group">
     <button class="btn btn-outline-primary mt-4 btn-block" type="button" data-toggle="collapse" data-target="#employmentForm" aria-expanded="false" aria-controls="employmentForm">
