@@ -28,13 +28,12 @@
         <div class="card mb-4">
           <img class="card-img-top" src="../assets/correct_solution_apr.png" alt="solution">
           <div class="card-body">
-            <p class="card-text">Our supply solution of business needs.
+            <p class="card-text">Our supply solution for your business needs.
               <ul>
                 <li>
-                <span class="red">VET</span><span class="blue">RANS</span> drives across your supply chain by effectively.
-              </li>
-              <li>
-                <span class="red">VET</span><span class="blue">RANS</span> understands that we must add value to activties of our customers.
+                <span class="red">VET</span><span class="blue">RANS</span>
+                 drives value across your supply chain by effectively tying the trucking services 
+                 we provide to shipping and receiving locations.
               </li>
             </ul>
             </p>
@@ -75,7 +74,7 @@ export default {
   name: 'INDEX',
   data () {
     return {
-      msg: 'Service'
+      msg: 'VETRANS - Service'
     }
   }
 }
@@ -139,6 +138,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.card{
+  padding: 10px;
 }
 
 </style>
