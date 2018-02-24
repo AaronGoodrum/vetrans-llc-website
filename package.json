@@ -4,7 +4,7 @@
   "description": "Rebuild vetrans website",
   "author": "Aaron Goodrum <ag505181@gmail.com>",
   "private": false,
-  "homepage": "https://github.com/AaronGoodrum/vetrans-llc-website",
+  "homepage": "https://vetrans.aaronwebbuild.com",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
